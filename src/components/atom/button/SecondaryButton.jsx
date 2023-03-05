@@ -1,11 +1,11 @@
-import styled from "styled-components";
 import { BaseButton } from "./BaseButton";
+import styled from "styled-components";
 
-export const PrimaryButton = (props) => {
+export const SecondaryButton = (props) => {
   const { children } = props;
   return <Sbutton>{children}</Sbutton>;
 };
 
 const Sbutton = styled(BaseButton)`
-  background-color: #40514e;
+  background-color: #11999e;
 `;
